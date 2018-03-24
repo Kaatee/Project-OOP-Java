@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="536.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.FXMLDocumentController">
+    <children>
+        <Button fx:id="dodaj_klienta" layoutX="38.0" layoutY="34.0" onAction="#handleDodajKlienta" prefHeight="33.0" prefWidth="114.0" text="Dodaj klienta" />
+      <TextArea fx:id="okienko" layoutX="38.0" layoutY="243.0" prefHeight="258.0" prefWidth="249.0" />
+      <Button fx:id="dodaj_zamowienie" layoutX="38.0" layoutY="138.0" mnemonicParsing="false" onAction="#handleDodajZamowienie" prefHeight="33.0" prefWidth="114.0" text="Dodaj zamowienie" />
+      <Button fx:id="dodaj_dostawce" layoutX="38.0" layoutY="84.0" mnemonicParsing="false" onAction="#handleDodajDostawca" prefHeight="33.0" prefWidth="114.0" text="Dodaj dostawce" />
+      <Text fill="#1b1818" layoutX="445.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESTAURACJA" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="mapa" layoutX="324.0" layoutY="100.0" prefHeight="401.0" prefWidth="400.0">
+         <children>
+            <ImageView fx:id="rys_restauracji" fitHeight="51.0" fitWidth="57.0" layoutX="172.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../photo/restauracja.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="wroc_do_restauracji" layoutX="173.0" layoutY="138.0" mnemonicParsing="false" onAction="#handleWrocDoRestauracji" prefHeight="33.0" prefWidth="114.0" text="Wroc do restauracji" />
+      <Button fx:id="usun_dostawce" layoutX="173.0" layoutY="84.0" mnemonicParsing="false" onAction="#handleUsunDostawce" prefHeight="33.0" prefWidth="114.0" text="Usun dostawce" />
+      <Button fx:id="usun_klienta" layoutX="173.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleUsunKlienta" prefHeight="33.0" prefWidth="114.0" text="Usun klienta" />
+      <Button fx:id="dodaj_posilek" layoutX="38.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleDodajPosilek" prefHeight="33.0" prefWidth="114.0" text="Dodaj posilek" />
+    </children>
+</AnchorPane>

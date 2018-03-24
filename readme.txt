@@ -1,0 +1,2 @@
+Katarzyna JóŸwiak, 127237, I4, zajêcia wtorek, 16:50
+Po skompilowaniu programu nalezy kliknac przycisk "dodaj klienta", nastepnie mozna kliknac "dodaj zamowienie". Po kliknieciu w dostawce lub klienta w polu tekstowym wyswietlaja sie informacje o nich (w tym w przypadku dostawcy poziom paliwa jego pojazdu). Aby zobaczyc aktualny poziom paliwa nalezy ponownie kliknac dostawce.
